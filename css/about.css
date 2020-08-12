@@ -1,0 +1,371 @@
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #E5E5E5;
+}
+
+.hero-background{
+    width: 100%;
+    height: 545px;
+    background: url('/img/about-hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+  
+.overlay {
+    height: 545px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.hero-content {
+    height: 545px;
+    line-height: 545px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.about h3 {
+    padding-top: 125px;
+    color: #2E2E2D;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.about-text1 {
+    padding-top: 40px;
+    font-size: 16px;
+    color: #2E2E2D;
+}
+
+.about-text2 {
+    padding-top: 48px;
+    font-size: 16px;
+    color: #2E2E2D;
+}
+
+.about-text3 {
+    padding-top: 74px;
+    padding-bottom: 150px;
+    font-size: 16px;
+    color: #2E2E2D;
+}
+
+.testimony {
+    background-color: #E5E5E5;
+}
+
+.testimony-card {
+    background-color: #fff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+    border: none !important;
+}
+
+.card img {
+    padding-top: 33px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-size: 22px !important;
+    font-weight: 600;
+    color: #000;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #000 !important;
+    padding-bottom: 60px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  background-size: 70%, 70%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 20px;
+  color: #000;
+  position: relative;
+  top: 9px;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 20px;
+  color: #000;
+  position: relative;
+  top: 9px;
+}
+
+.gen-brand {
+    background-color: #fff;
+    margin-top: 50px; /* might change later */
+    width: 100%;
+    overflow: hidden;
+}
+
+.gen-brand_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 105px;
+    padding-bottom: 50px;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .hero-background{
+        width: 100%;
+        height: 545px;
+        background: url('/img/about-hero.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+      
+    .overlay {
+        height: 545px;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+    }
+    
+    .hero-content {
+        height: 545px;
+        line-height: 545px;
+        text-align: center;
+        color: #fff;
+        margin: 0;
+    }
+    
+    .hero-content h1 {
+        font-size: 46px;
+        font-weight: bold;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+    }
+    
+    .about h3 {
+        padding-top: 115px;
+        color: #2E2E2D;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    .about-text1 {
+        padding-top: 30px;
+        font-size: 16px;
+        color: #2E2E2D;
+    }
+    
+    .about-text2 {
+        padding-top: 38px;
+        font-size: 16px;
+        color: #2E2E2D;
+    }
+    
+    .about-text3 {
+        padding-top: 64px;
+        padding-bottom: 140px;
+        font-size: 16px;
+        color: #2E2E2D;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .hero-background{
+        height: 445px;
+    }
+      
+    .overlay {
+        height: 445px;
+    }
+    
+    .hero-content {
+        height: 445px;
+        line-height: 445px;
+    }
+    
+    .hero-content h1 {
+        font-size: 44px;
+    }
+
+    .about h3 {
+        padding-top: 95px;
+        font-size: 28px;
+    }
+    
+    .about-text1 {
+        padding-top: 20px;
+    }
+    
+    .about-text2 {
+        padding-top: 28px;
+    }
+    
+    .about-text3 {
+        padding-top: 54px;
+        padding-bottom: 100px;
+    }
+    
+    .card img {
+        padding-top: 28px;
+        padding-bottom: 25px;
+        margin: 0 auto;
+    }
+    
+    .card-title {
+        font-size: 19px !important;
+    }
+    
+    .card-text {
+        font-size: 13px;
+        padding-bottom: 25px;
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      height: 40px;
+      width: 40px;
+    }
+    
+    .carousel-control-next-icon:after {
+      font-size: 18px;
+      top: 5px;
+    }
+    
+    .carousel-control-prev-icon:after {
+      font-size: 18px;
+      top: 5px;
+    }
+    
+    .gen-brand_wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    
+    .hero-background{
+        height: 425px;
+    }
+      
+    .overlay {
+        height: 425px;
+    }
+    
+    .hero-content {
+        height: 425px;
+        line-height: 425px;
+    }
+    
+    .hero-content h1 {
+        font-size: 40px;
+    }
+
+    .about {
+        padding: 0 25px;
+        
+    }
+    
+    .about h3 {
+        padding-top: 65px;
+        font-size: 29px;
+    }
+    
+    .about-text1 {
+        padding-top: 10px;
+        font-size: 15px;
+        color: #2E2E2D;
+    }
+    
+    .about-text2 {
+        padding-top: 23px;
+        font-size: 15px;
+        color: #2E2E2D;
+    }
+    
+    .about-text3 {
+        padding-top: 44px;
+        padding-bottom: 80px;
+        font-size: 15px;
+        color: #2E2E2D;
+    }
+    
+    .card img {
+        padding-top: 23px;
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+    
+    .card-title {
+        font-size: 20px !important;
+        font-weight: 600;
+        color: #000;
+    }
+    
+    .card-text {
+        font-size: 14px;
+        color: #000 !important;
+        padding-bottom: 20px;
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      height: 30px;
+      width: 30px;
+    }
+    
+    .carousel-control-next-icon:after {
+      font-size: 15px;
+      top: 4px;
+    }
+    
+    .carousel-control-prev-icon:after {
+      font-size: 15px;
+      top: 4px;
+    }
+    
+    .gen-brand {
+        background-color: #fff;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .gen-brand_wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 55px;
+        padding-bottom: 30px;
+    }
+
+}
+
