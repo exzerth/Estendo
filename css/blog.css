@@ -1,0 +1,373 @@
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav {
+    background: rgba(197, 197, 197, 0.5);
+}
+
+.mini-nav {
+    display: flex;
+}
+
+.blog-link {
+    padding-left: 0;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    padding-right: 24px;
+    color: #2E2E2D;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.blog-link:hover {
+    color: #D63535;
+}
+
+.blog-link_active {
+    color: #D63535;
+    font-weight: 600;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+/* .dropdown-item {
+    padding: 0;
+}
+
+.dropdown-menu.show {
+    margin-left: -300px;
+    margin-top: -27px;
+    background: transparent;
+    padding: 0;
+    border: none;
+} */
+
+.hero-background{
+    width: 100%;
+    height: 545px;
+    background: #D63535;
+    overflow: hidden;
+}
+
+.hero-content {
+    height: 545px;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content_text p {
+    font-size: 23px;
+    margin-bottom: 32px;
+}
+
+.hero-content_text h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.articles-grid {
+    padding-top: 84px;
+}
+
+.card {
+    border: none !important;
+}
+
+.card img {
+    border: 1px solid rgba(46, 46, 45, 0.1);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.card-title {
+    font-size: 16px;
+    color: #ADB5BD;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.card-text {
+    color: #2E2E2D;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 34px;
+}
+
+.view-all {
+    color: #ADB5BD;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    top: -25px;
+}
+
+.gen-brand {
+    background-color: #fff;
+    margin-top: 50px; /* might change later */
+    width: 100%;
+    overflow: hidden;
+}
+
+.gen-brand_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 105px;
+    padding-bottom: 50px;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    .hero-background{
+        width: 100%;
+        height: 545px;
+        background: #D63535;
+        overflow: hidden;
+    }
+    
+    .hero-content {
+        height: 545px;
+        color: #fff;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .hero-content_text p {
+        font-size: 23px;
+        margin-bottom: 32px;
+    }
+    
+    .hero-content_text h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .hero-content_img img {
+        width: 500px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .blog-link {
+        padding-left: 0;
+        padding-top: 19px;
+        padding-bottom: 19px;
+        padding-right: 20px;
+        color: #2E2E2D;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .blog-link:hover {
+        color: #D63535;
+    }
+    
+    .blog-link_active {
+        color: #D63535;
+        font-weight: 600;
+    }
+
+    .hero-background{
+        width: 100%;
+        height: 445px;
+        background: #D63535;
+        overflow: hidden;
+    }
+    
+    .hero-content {
+        height: 445px;
+        color: #fff;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .hero-content_text p {
+        font-size: 18px;
+        margin-bottom: 32px;
+    }
+    
+    .hero-content_text h1 {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .hero-content_img img {
+        width: 340px;
+    }
+
+    .card-title {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    
+    .card-text {
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+    
+    .view-all {
+        font-size: 16px;
+        position: relative;
+        top: -25px;
+    }
+    
+    .gen-brand_wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    
+    .mini-nav {
+        display: flex;
+    }
+
+    .blog-link {
+        padding-left: 0;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-right: 10px;
+        color: #2E2E2D;
+        text-decoration: none;
+        font-size: 12px;
+    }
+
+    .blog-link:hover {
+        color: #D63535;
+    }
+    
+    .blog-link_active {
+        color: #D63535;
+        font-weight: 600;
+    }
+
+    .search img {
+        width: 17px;
+        height: 17px;
+    }
+
+    .hero-background{
+        width: 100%;
+        height: 400px;
+        background: #D63535;
+        overflow: hidden;
+    }
+    
+    .hero-content {
+        height: 400px;
+        color: #fff;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-content_text {
+        text-align: center;
+    }
+    
+    .hero-content_text p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .hero-content_text h1 {
+        font-size: 29px;
+        font-weight: 600;
+        margin-bottom: 60px;
+    }
+
+    .hero-content_img img {
+        width: 260px;
+    }
+
+    .articles-grid {
+        padding-top: 64px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card-title {
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    
+    .card-text {
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+    
+    .view-all {
+        font-size: 15px;
+        position: relative;
+        top: -25px;
+    }
+    
+    
+    .gen-brand {
+        background-color: #fff;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .gen-brand_wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 55px;
+        padding-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 376px) {
+    
+    .mini-nav {
+        display: flex;
+    }
+
+    .blog-link {
+        padding-left: 0;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-right: 7px;
+        color: #2E2E2D;
+        text-decoration: none;
+        font-size: 10px;
+    }
+
+    .blog-link:hover {
+        color: #D63535;
+    }
+    
+    .blog-link_active {
+        color: #D63535;
+        font-weight: 600;
+    }
+
+    .search img {
+        width: 15px;
+        height: 15px;
+    }
+
+}
+
