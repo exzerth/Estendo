@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.catalogue {
+    margin-top: 80px;
+}
+
+label {
+    font-size: 20px;
+    color: #04172A;
+}
+
+select {
+    width: 80%;
+    height: 43px;
+    font-size: 16px;
+    color: rgba(4, 23, 42, 0.3);
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 1px solid rgba(4, 23, 42, 0.1);
+    border-radius: 5px;
+    background: #fff;
+}
+
+.bold-option {
+    color: #333;
+    font-size: 18px;
+    padding: 16px 0;
+}
+
+.gen-brand {
+    background-color: #fff;
+    margin-top: 50px; /* might change later */
+    width: 100%;
+    overflow: hidden;
+}
+
+.gen-brand_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 105px;
+    padding-bottom: 50px;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    
+    
+    .gen-brand_wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    
+    
+    
+    .gen-brand {
+        background-color: #fff;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .gen-brand_wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 55px;
+        padding-bottom: 30px;
+    }
+
+}
+
