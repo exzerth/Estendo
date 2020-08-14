@@ -237,6 +237,85 @@ form {
         width: 500px;
     }
     
+    .author-img {
+        float: left;
+        margin-right: 16px;
+    }
+    
+    .author-about {
+        overflow: hidden;
+    }
+    
+    .author-about p {
+        margin: 0;
+        margin-top: 11px;
+        font-size: 22px;
+    }
+    
+    .subscribe {
+        height: 200px;
+        background: rgba(214, 53, 53, 0.103);
+        padding: 20px 72px;
+        text-align: center;
+        border-top: 10px solid rgba(214, 53, 53, 0.603);
+        margin-bottom: 37px;
+    }
+    
+    .subscribe p {
+        color: #2E2E2D;
+        font-size: 17px;
+        margin-bottom: 13px;
+    }
+    
+    form {
+        display:flex;
+        flex-direction:row;
+        border: 1px solid rgba(46, 46, 45, 0.7);
+        margin-bottom: 13px;
+    }
+      
+    .subscribe input {
+        flex-grow:2;
+        border:none;
+        padding: 12px 0;
+        padding-left: 14px;
+    }
+    
+    .subscribe input::placeholder {
+        font-size: 17px;
+    }
+    
+    .subscribe button {
+        padding: 13px 30px;
+        font-size: 17px;
+    }
+    
+    .author-details {
+        margin-top: 30px;
+    }
+    
+    .author-details_img {
+        float: left;
+        margin-right: 13px;
+    }
+    
+    .author-details_about {
+        overflow: hidden;
+    }
+    
+    .author-bio1 {
+        margin: 0;
+        margin-top: 12px;
+        font-size: 19px;
+        font-weight: 500;
+    }
+    
+    .author-bio2 {
+        margin: 0;
+        margin-top: 3px;
+        font-size: 17px;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -288,6 +367,136 @@ form {
 
     .hero-content_img img {
         width: 340px;
+    }
+
+    .author-img {
+        float: left;
+        margin-right: 13px;
+    }
+
+    .author-img img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .author-about {
+        overflow: hidden;
+    }
+    
+    .author-about p {
+        margin: 0;
+        margin-top: 12px;
+        font-size: 17px;
+    }
+    
+    .author-post {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .author-post_socials {
+        margin: 0 auto;
+        width: 113px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .author-post_text {
+        margin-top: 40px;
+    }
+    
+    .author-post_container {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    
+    .author-post_text p {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    
+    .author-post_text h2 {
+        font-size: 19px;
+        font-weight: 600;
+        padding-bottom: 5px;
+    }
+    
+    .subscribe {
+        height: 200px;
+        background: rgba(214, 53, 53, 0.103);
+        padding: 28px 50px;
+        text-align: center;
+        border-top: 8px solid rgba(214, 53, 53, 0.603);
+        margin-bottom: 30px;
+    }
+    
+    .subscribe p {
+        color: #2E2E2D;
+        font-size: 15px;
+        margin-bottom: 13px;
+    }
+    
+    form {
+        display:flex;
+        flex-direction:row;
+        border: 1px solid rgba(46, 46, 45, 0.7);
+        margin-bottom: 13px;
+    }
+      
+    .subscribe input {
+        flex-grow:2;
+        border:none;
+        padding: 7px 0;
+        padding-left: 14px;
+    }
+    
+    .subscribe input::placeholder {
+        color: #2E2E2D;
+        font-size: 15px;
+    }
+    
+    .subscribe input:focus {
+        outline: none;
+    }
+    
+    .subscribe button {
+        border:1px solid #D63535;
+        background:rgba(214, 53, 53, 0.904);
+        color:white;
+        padding: 9px 25px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .author-details {
+        margin-top: 30px;
+    }
+    
+    .author-details_img {
+        float: left;
+        margin-right: 14px;
+    }
+
+    .author-details_img img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .author-details_about {
+        overflow: hidden;
+    }
+    
+    .author-bio1 {
+        margin: 0;
+        margin-top: 12px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .author-bio2 {
+        margin: 0;
+        margin-top: 3px;
+        font-size: 13px;
     }
 
 }
@@ -351,11 +560,152 @@ form {
     .hero-content_text h1 {
         font-size: 29px;
         font-weight: 600;
-        margin-bottom: 60px;
+        margin-bottom: 30px;
+        padding-bottom: 0;
     }
 
     .hero-content_img img {
         width: 260px;
+    }
+
+    .author {
+        display: flex;
+        justify-content: center;
+    }
+
+    .author-img {
+        float: none;
+        margin-right: 10px;
+    }
+
+    .author-img img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .author-about {
+        overflow: hidden;
+    }
+    
+    .author-about p {
+        margin: 0;
+        margin-top: 11px;
+        font-size: 15px;
+    }
+    
+    .author-post {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .author-post_socials {
+        margin: 0 auto;
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .author-post_text {
+        margin-top: 30px;
+    }
+    
+    .author-post_container {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .author-post_text p {
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+    
+    .author-post_text h2 {
+        font-size: 16px;
+        font-weight: 600;
+        padding-bottom: 5px;
+    }
+    
+    .subscribe {
+        height: 200px;
+        background: rgba(214, 53, 53, 0.103);
+        padding: 25px 10px;
+        text-align: center;
+        border-top: 8px solid rgba(214, 53, 53, 0.603);
+        margin-bottom: 25px;
+    }
+    
+    .subscribe p {
+        color: #2E2E2D;
+        font-size: 13px;
+        margin-bottom: 13px;
+    }
+    
+    form {
+        /* This bit sets up the horizontal layout */
+        display:flex;
+        flex-direction:row;
+        border: 1px solid rgba(46, 46, 45, 0.7);
+        margin-bottom: 13px;
+    }
+      
+    .subscribe input {
+        /* Tell the input to use all the available space */
+        flex-grow:2;
+        /* And hide the input's outline, so the form looks like the outline */
+        border:none;
+        padding: 4px 0;
+        padding-left: 10px;
+    }
+    
+    .subscribe input::placeholder {
+        color: #2E2E2D;
+        font-size: 14px;
+    }
+    
+    .subscribe input:focus {
+        /* removing the input focus blue box. Put this on the form if you like. */
+        outline: none;
+    }
+    
+    .subscribe button {
+        /* Just a little styling to make it pretty */
+        border:1px solid #D63535;
+        background:rgba(214, 53, 53, 0.904);
+        color:white;
+        padding: 9px 5px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .author-details {
+        margin-top: 25px;
+    }
+    
+    .author-details_img {
+        float: left;
+        margin-right: 10px;
+        margin-top: 9px;
+    }
+
+    .author-details_img img {
+        width: 65px;
+        height: 65px;
+    }
+    
+    .author-details_about {
+        overflow: hidden;
+    }
+    
+    .author-bio1 {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .author-bio2 {
+        margin: 0;
+        margin-top: 3px;
+        font-size: 12px;
     }
 
 }
@@ -388,6 +738,52 @@ form {
     .search img {
         width: 15px;
         height: 15px;
+    }
+
+    .author {
+        display: flex;
+        justify-content: center;
+    }
+
+    .author-img {
+        float: none;
+        margin-right: 10px;
+    }
+
+    .author-img img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .author-about {
+        overflow: hidden;
+    }
+    
+    .author-about p {
+        margin: 0;
+        margin-top: 11px;
+        font-size: 15px;
+    }
+    
+    .author-post {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .author-post_socials {
+        margin: 0 auto;
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .author-post_text {
+        margin-top: 20px;
+    }
+    
+    .author-post_container {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 }
