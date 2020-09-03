@@ -11,14 +11,24 @@ body {
 label {
     font-size: 20px;
     color: #04172A;
-    padding-right: 5px;
 }
 
-.filter {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+select {
+    width: 80%;
+    height: 43px;
+    font-size: 16px;
+    color: rgba(4, 23, 42, 0.3);
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 1px solid rgba(4, 23, 42, 0.1);
+    border-radius: 5px;
+    background: #fff;
+}
+
+.bold-option {
+    color: #333;
+    font-size: 18px;
+    padding: 16px 0;
 }
 
 .search {
@@ -27,19 +37,15 @@ label {
 }
 
 .search input {
-    text-indent: 33px;
+    text-indent: 36px;
 }
 
 .search .fa-search { 
     position: absolute;
     top: 12px;
-    left: 82px;
+    left: 12px;
     font-size: 18px;
     color: rgba(4, 23, 42, 0.3);
-}
-
-.fa-filter {
-    position: absolute;
 }
 
 input {

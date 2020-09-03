@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/header-footer.css">
-    <link rel="stylesheet" href="/css/catalogue.css">
+    <link rel="stylesheet" href="/css/catalogue-cap-result.css">
 
     <title>Estendo | Catalogue</title>
   </head>
@@ -34,12 +34,25 @@
     </nav>
 
     <div class="container catalogue">
-        <div class="filter search">
-            <label for="">Filters:</label>
-            <i class="fa fa-search"></i> 
-            <input type="text" placeholder="Search for appliances">
-            <i class="fa fa-filter"></i> 
+        <div class="row">
+            <div class="filter col-md-5">
+                <form action="">
+                    <label for="">Filters:</label>
+                    <select class="">
+                        <option>All Capacity</option>
+                        <option class="bold-option">Below 1.5KVA</option>
+                        <option class="bold-option">1.5KVA - 2.5KVA</option>
+                        <option class="bold-option">2.5KVA - 5.5KVA</option>
+                        <option class="bold-option">Above 5.5KVA</option>
+                    </select>
+                </form>
+            </div>
+            <div class="col-md-7 search">
+              <i class="fa fa-search"></i> 
+              <input type="text" placeholder="Search for appliances">
+            </div>
         </div>
+        
     </div>
 
     <section class="container catalogue-grid">
