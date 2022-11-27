@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../css/navbar.css";
 import estendoLogo from "../images/brand-logo.png";
 
@@ -15,11 +15,11 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <Link className="nav-link nav-link__active" to="/">Home <span className="sr-only">(current)</span></Link>
-                    <Link className="nav-link" to="catalogue">Catalogue</Link>
-                    <Link className="nav-link" to="about">About us</Link>
-                    <Link className="nav-link" to="contact">Contact us</Link>
-                    <Link className="nav-link" to="blog">Blog</Link>
+                    <NavLink className="nav-link" to="/">Home <span className="sr-only">(current)</span></NavLink>
+                    <NavLink className="nav-link" to="/catalogue">Catalogue</NavLink>
+                    <NavLink className="nav-link" to="/about">About us</NavLink>
+                    <NavLink className="nav-link" to="/contact">Contact us</NavLink>
+                    <NavLink className="nav-link" to="/blog">Blog</NavLink>
                 </div>
                 </div>
             </div>

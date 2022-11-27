@@ -15,11 +15,11 @@
     font-weight: 500 !important;
 }
 
-.nav-link__active {
+.navbar-nav a.active {
     font-weight: 500;
 }
 
-.nav-link__active::after {
+.navbar-nav a.active::after {
     content: '';
     border-bottom: 5px solid #D63535;
     opacity: 0.9;

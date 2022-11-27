@@ -25,7 +25,7 @@ const BlogPost = () => {
 
         <div class="author-post_container subscribe">
           <p>Join <strong>2,500</strong> customer-obsessed readers on our mailing list.</p>
-          <form action="">
+          <form className='blog-form' action="">
             <input type="email" name="email" id="subscribe-email" placeholder="Email Address"/>
             <button>Subscribe</button>
           </form>

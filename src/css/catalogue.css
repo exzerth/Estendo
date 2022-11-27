@@ -36,7 +36,7 @@ label {
     position: absolute;
 }
 
-input {
+.search-input {
     height: 43px;
     width: 100%;
     font-size: 16px;
@@ -47,7 +47,7 @@ input {
     background: #fff;
 }
 
-input::placeholder {
+.search-input::placeholder {
     color: rgba(4, 23, 42, 0.3);
     font-size: 16px;
 }
@@ -160,6 +160,19 @@ input::placeholder {
     .catalogue-box_more img {
         width: 17%;
     }
+}
+
+@media (max-width: 500px) {
+
+    .catalogue {
+        margin-top: 40px;
+    }
+
+    .catalogue-box {
+        height: 332px;
+        width: unset;
+    }
+
 }
 
 

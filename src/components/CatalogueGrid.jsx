@@ -9,7 +9,7 @@ const CatalogueGrid = () => {
         <div className="filter search">
             <label htmlFor="">Filters:</label>
             <i className="fa fa-search"></i> 
-            <input type="text" placeholder="Search for appliances"/>
+            <input className='search-input' type="text" placeholder="Search for appliances"/>
             <i className="fa fa-filter"></i> 
         </div>
     </div>

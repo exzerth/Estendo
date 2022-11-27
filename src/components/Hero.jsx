@@ -3,7 +3,6 @@ import "../css/hero.css";
 import HeroContent from "./HeroContent";
 
 const Hero = ({title, subtitle, selectGen, advGen}) => {
-
   return (
     <section className="hero-background">
         <div className="overlay">
