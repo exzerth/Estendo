@@ -1,12 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const BlogNav = () => {
   return (
     <nav class="nav">
         <div class="container mini-nav">
-            <a class="nav-link blog-link" href="blog-post.html">Latest article</a>
+            <Link class="nav-link blog-link blog-link_active" to="blog">Latest article</Link>
             <a class="nav-link blog-link" href="#popular">Popular</a>
-            <a class="nav-link blog-link blog-link_active" href="blog.html">Customer Service</a>
+            <Link class="nav-link blog-link" href="service">Customer Service</Link>
             <a class="nav-link blog-link" href="#product">Product</a>
 
             <div class="search">
