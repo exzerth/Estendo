@@ -27,16 +27,16 @@ const Footer = () => {
         </div>
         <div className="footer-box3">
           <h2>Explore</h2>
-          <a href="/">Home</a>
-          <a href="about.html">About Us</a>
-          <a href="contact.html">Contact Us</a>
-          <a href="catalogue.html">Catalogue</a>
-          <a href="blog.html">Blog</a>
+          <Link to="/">Home</Link>
+          <Link to="/about">About Us</Link>
+          <Link to="/contact">Contact Us</Link>
+          <Link to="/catalogue">Catalogue</Link>
+          <Link htoref="/blog">Blog</Link>
         </div>
         <div className="footer-box4">
           <h2>Legal</h2>
-          <Link to="privacy">Privacy Policy</Link>
-          <Link to="terms">Terms & Conditions</Link>
+          <Link to="/privacy">Privacy Policy</Link>
+          <Link to="/terms">Terms & Conditions</Link>
         </div>
       </div>
 

@@ -2,10 +2,10 @@ import React from 'react'
 
 const TermsContent = () => {
   return (
-    <section class="container terms">
-        <h1 class="title">Estendo, Website Terms of Use</h1>
-        <p class="subtitle">Estendo Power Products Company Ltd. is a private company registered in 1996 and it is located at 292 Wharf Road, Apapa, Lagos.</p>
-        <div class="term-texts">
+    <section className="container terms">
+        <h1 className="title">Estendo, Website Terms of Use</h1>
+        <p className="subtitle">Estendo Power Products Company Ltd. is a private company registered in 1996 and it is located at 292 Wharf Road, Apapa, Lagos.</p>
+        <div className="term-texts">
             <h2>By using our site you accept these terms.</h2>
             <p>By using our sites, you confirm that you accept these terms of use and that you agree to comply with them.</p>
             <p>If you do not agree to these terms, you must not use our sites.</p>

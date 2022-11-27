@@ -6,13 +6,13 @@ import authorImg from '../images/author.png'
 
 const BlogPost = () => {
   return (
-    <section class="container author-post">
-        <div class="author-post_socials">
+    <section className="container author-post">
+        <div className="author-post_socials">
             <a href="#fb"><img src={darkFb} alt="facebook-icon"/></a>
             <a href="#tw"><img src={darkTw} alt="twitter-icon"/></a>
             <a href="#ig"><img src={darkIg} alt="instagram-icon"/></a>
         </div>
-        <div class="author-post_container author-post_text">
+        <div className="author-post_container author-post_text">
             <p>Many customers will continue doing business with you after they’ve been dissatisfied and complained. In fact, according to the service recovery paradox, a complaint is an opportunity that can actually result in the customer having a more positive view of your business after a complaint is resolved than before they ever had a problem.</p>
             <p>Being able to assess and address customer complaints efficiently is key to making this happen.</p>
             <h2>What are customer complaints, really?</h2>
@@ -23,7 +23,7 @@ const BlogPost = () => {
             <p>To uncover the reason you received a complaint from a customer and solve the problem in order to retain that customer, use this five-step process for handling customer complaints.</p>
         </div>
 
-        <div class="author-post_container subscribe">
+        <div className="author-post_container subscribe">
           <p>Join <strong>2,500</strong> customer-obsessed readers on our mailing list.</p>
           <form className='blog-form' action="">
             <input type="email" name="email" id="subscribe-email" placeholder="Email Address"/>
@@ -32,15 +32,15 @@ const BlogPost = () => {
           <p style={{color: "#ADB5BD"}}>Expertly curated emails that’ll help you deliver an exceptional customer experience.</p>
         </div>
 
-        <hr class="author-post_container"/>
+        <hr className="author-post_container"/>
 
-        <div class="author-post_container author-details">
-          <div class="author-details_img">
+        <div className="author-post_container author-details">
+          <div className="author-details_img">
               <img src={authorImg} alt=""/>
           </div>
-          <div class="author-details_about">
-              <p class="author-bio1">Gregory Ciotti</p>
-              <p class="author-bio2">Greg is a writer, marketing strategist and alum of Help Scout. Connect with him on Twitter and LinkedIn.</p>
+          <div className="author-details_about">
+              <p className="author-bio1">Gregory Ciotti</p>
+              <p className="author-bio2">Greg is a writer, marketing strategist and alum of Help Scout. Connect with him on Twitter and LinkedIn.</p>
           </div>
         </div>
     </section>

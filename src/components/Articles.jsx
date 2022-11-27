@@ -6,22 +6,22 @@ import articleImgThree from '../images/article-img3.png'
 
 const Articles = () => {
   return (
-    <section class="articles-grid">
-      <div class="container">
-        <div class="row">
-          <ArticlesContent image={<img src={articleImgOne} class="card-img-top" alt="..." />}/>
-          <ArticlesContent image={<img src={articleImgTwo} class="card-img-top" alt="..." />}/>
-          <ArticlesContent image={<img src={articleImgThree} class="card-img-top" alt="..." />}/>
+    <section className="articles-grid">
+      <div className="container">
+        <div className="row">
+          <ArticlesContent image={<img src={articleImgOne} className="card-img-top" alt="..." />}/>
+          <ArticlesContent image={<img src={articleImgTwo} claclassNamess="card-img-top" alt="..." />}/>
+          <ArticlesContent image={<img src={articleImgThree} className="card-img-top" alt="..." />}/>
 
-          <ArticlesContent image={<img src={articleImgOne} class="card-img-top" alt="..." />}/>
-          <ArticlesContent image={<img src={articleImgTwo} class="card-img-top" alt="..." />}/>
-          <ArticlesContent image={<img src={articleImgThree} class="card-img-top" alt="..." />}/>
+          <ArticlesContent image={<img src={articleImgOne} className="card-img-top" alt="..." />}/>
+          <ArticlesContent image={<img src={articleImgTwo} className="card-img-top" alt="..." />}/>
+          <ArticlesContent image={<img src={articleImgThree} className="card-img-top" alt="..." />}/>
 
-          <ArticlesContent image={<img src={articleImgOne} class="card-img-top" alt="..." />}/>
-          <ArticlesContent image={<img src={articleImgTwo} class="card-img-top" alt="..." />}/>
-          <ArticlesContent image={<img src={articleImgThree} class="card-img-top" alt="..." />}/>
+          <ArticlesContent image={<img src={articleImgOne} className="card-img-top" alt="..." />}/>
+          <ArticlesContent image={<img src={articleImgTwo} className="card-img-top" alt="..." />}/>
+          <ArticlesContent image={<img src={articleImgThree} className="card-img-top" alt="..." />}/>
         </div>
-        <p class="view-all">View All Articles</p>
+        <p className="view-all">View All Articles</p>
       </div>
     </section>
   )

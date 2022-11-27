@@ -2,10 +2,10 @@ import React from 'react'
 
 const PrivacyContent = () => {
   return (
-    <section class="container privacy">
-        <h1 class="title">Estendo Privacy Policy</h1>
-        <p class="subtitle">Estendo Power Products Company Ltd. is a private company registered in 1996 and it is located at 292 Wharf Road, Apapa, Lagos.</p>
-        <div class="privacy-texts">
+    <section className="container privacy">
+        <h1 className="title">Estendo Privacy Policy</h1>
+        <p className="subtitle">Estendo Power Products Company Ltd. is a private company registered in 1996 and it is located at 292 Wharf Road, Apapa, Lagos.</p>
+        <div className="privacy-texts">
           <h2>What personal information do we collect about you?</h2>
           <p>We collect personal information from you when you provide it to us directly and through your use of the sites. This information may include:</p>
           <ul>

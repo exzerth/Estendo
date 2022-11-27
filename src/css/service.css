@@ -6,19 +6,19 @@
     border: none !important;
 }
 
-.card img {
+.article-card img {
     border: 1px solid rgba(46, 46, 45, 0.1);
     border-radius: 5px 5px 0px 0px;
 }
 
-.card-title {
+#article-card-title {
     font-size: 16px;
     color: #ADB5BD;
     text-align: center;
     padding-top: 15px;
 }
 
-.card-text {
+#article-card-text {
     color: #2E2E2D;
     font-size: 18px;
     text-align: center;
