@@ -1,0 +1,197 @@
+.testimony {
+    background-color: #fff;
+}
+
+.testimony-card {
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.testimony-content {
+    margin-top: 30px;
+}
+
+.card {
+    border: none !important;
+}
+
+.card img {
+    padding-top: 33px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-size: 22px !important;
+    font-weight: 600;
+    color: #000;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #000 !important;
+    padding-bottom: 60px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  background-size: 70%, 70%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 20px;
+  color: #000;
+  position: relative;
+  top: 9px;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 20px;
+  color: #000;
+  position: relative;
+  top: 9px;
+}
+
+.testimony-content h3 {
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.testimony-content button {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 14px 26px;
+    background: #D63535 !important;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.testimony-content p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .card img {
+        padding-top: 28px;
+        padding-bottom: 25px;
+        margin: 0 auto;
+    }
+    
+    .card-title {
+        font-size: 19px !important;
+    }
+    
+    .card-text {
+        font-size: 13px;
+        padding-bottom: 25px;
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      height: 40px;
+      width: 40px;
+    }
+    
+    .carousel-control-next-icon:after {
+      font-size: 18px;
+      top: 5px;
+    }
+    
+    .carousel-control-prev-icon:after {
+      font-size: 18px;
+      top: 5px;
+    }
+    
+    .testimony-content h3 {
+        font-size: 35px;
+    }
+    
+    .testimony-content button {
+        font-size: 15px;
+        padding: 12px 22px;
+        margin-bottom: 20px;
+    }
+    
+    .testimony-content p {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    
+    .card img {
+        padding-top: 23px;
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+    
+    .card-title {
+        font-size: 20px !important;
+        font-weight: 600;
+        color: #000;
+    }
+    
+    .card-text {
+        font-size: 14px;
+        color: #000 !important;
+        padding-bottom: 20px;
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      height: 30px;
+      width: 30px;
+    }
+    
+    .carousel-control-next-icon:after {
+      font-size: 15px;
+      top: 4px;
+    }
+    
+    .carousel-control-prev-icon:after {
+      font-size: 15px;
+      top: 4px;
+    }
+    
+    .testimony-content h3 {
+        font-size: 30px;
+        font-weight: 600;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+    
+    .testimony-content button {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 11px 21px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .testimony-content p {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 40px;
+        padding: 0 30px;
+    }
+    
+}

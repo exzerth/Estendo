@@ -1,0 +1,41 @@
+.gen-brand {
+    background-color: #fff;
+    margin-top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.gen-brand_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .gen-brand_wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    
+    .gen-brand {
+        background-color: #fff;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .gen-brand_wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 55px;
+        padding-bottom: 30px;
+    }
+    
+}

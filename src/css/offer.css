@@ -1,0 +1,161 @@
+.offers {
+    margin-top: 115px;
+    margin-bottom: 50px;
+}
+
+.offers h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.offers p {
+    font-size: 18px;
+    margin-bottom: 54px;
+}
+
+.offers-grid {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.offer-box1, .offer-box2, .offer-box3 {
+    height: 290px;
+    width: 376px;
+    border-radius: 5px;
+}
+
+.offer-img {
+    width: 100%;
+}
+
+.offer-box2 {
+    margin: 0 16px;
+}
+
+.offer-box_more {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D63535;
+    height: 70px;
+    color: #fff;
+    border: 1px solid rgba(46, 46, 45, 0.1);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.gen-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-left: 25px;
+}
+
+.offer-box_more a {
+    margin-bottom: 0;
+    padding-right: 29px;
+    color: #fff;
+    text-decoration: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .offers {
+        margin-top: 104px;
+        margin-bottom: 0;
+    }
+    
+    .offers h3 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 12px;
+    }
+    
+    .offers p {
+        font-size: 16px;
+        margin-bottom: 44px;
+    }
+    
+    .offers-grid {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    .offer-box1, .offer-box2, .offer-box3 {
+        height: 290px;
+        width: 376px;
+        border-radius: 5px;
+    }
+    
+    .offer-img {
+        width: 100%;
+    }
+    
+    .offer-box2 {
+        margin: 0 16px;
+    }
+    
+    .offer-box_more {
+        height: 60px;
+    }
+    
+    .gen-name {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    
+    .offer-box_more a {
+        margin-bottom: 0;
+        padding-right: 11px;
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+
+    .offers {
+        margin-top: 60px;
+        margin-bottom: 0;
+        padding: 0 30px;
+    }
+    
+    .offers h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 12px;
+    }
+    
+    .offers p {
+        font-size: 15px;
+        margin-bottom: 34px;
+    }
+    
+    .offers-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .offer-box1, .offer-box2, .offer-box3 {
+        height: 310px;
+        width: 356px;
+        border-radius: 5px;
+    }
+    
+    .offer-img {
+        width: 100%;
+    }
+    
+    .offer-box2 {
+        margin: 0px;
+    }
+    
+    .offer-box_more {
+        height: 55px;
+    }
+    
+}
