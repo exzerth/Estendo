@@ -1,15 +1,4 @@
-.hero-background{
-    width: 100%;
-    overflow: hidden;
-    height: 545px;
-    background: url('../images/hero.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-  
-.overlay {
+  .overlay {
     height: 545px;
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -24,9 +13,25 @@
     transform: translateY(-50%);
 }
 
+.about-hero-content {
+    height: 545px;
+    line-height: 545px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
 .hero-content h1 {
     font-size: 48px;
     font-weight: bold;
+}
+
+.about-hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 }
 
 .hero-content p {

@@ -2,18 +2,27 @@ import React from 'react'
 import "../css/service.css"
 import Navbar from '../components/Navbar'
 import BlogNav from '../components/BlogNav'
-import Hero from '../components/Hero'
 import Articles from '../components/Articles'
 import Footer from '../components/Footer'
+import BlogHeroContent from '../components/BlogHeroContent'
 
-const CustomerService = ({subtitle, title}) => {
-    title = <h1>Featured Article</h1>
-    subtitle = <p>How to maintain your laptop for a Long-last Effect</p>
+const blogStyles = {
+  width: 100 + "%",
+  height: 545,
+  background: "#D63535",
+  overflow: "hidden",
+}
+
+const CustomerService = ({blogTitle, blogSubtitle}) => {
+    blogTitle = <h1>Featured Article</h1>
+    blogSubtitle = <p>How to maintain your laptop for a Long-last Effect</p>
   return (
     <>
     <Navbar/>
     <BlogNav/>
-    <Hero subtitle={subtitle} title={title}/>
+    <div style={blogStyles}>
+      <BlogHeroContent blogTitle={blogTitle} blogSubtitle={blogSubtitle}/>
+    </div>
     <Articles/>
     <Footer/>
     </>

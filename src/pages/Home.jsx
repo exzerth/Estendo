@@ -7,6 +7,19 @@ import Videos from "../components/Videos"
 import Testimony from "../components/Testimony"
 import GenBrand from "../components/GenBrand"
 import Footer from "../components/Footer"
+import homeHero from "../images/hero.png"
+
+
+const styles = {
+  width: 100 + "%",
+  overflow: "hidden",
+  height: 545,
+  backgroundImage: `url(${homeHero})`,
+  backgroundSize: "cover",
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  position: "relative"
+}
 
 const Home = ({title, subtitle, selectGen, advGen}) => {
 
@@ -18,7 +31,9 @@ const Home = ({title, subtitle, selectGen, advGen}) => {
   return (
     <>
     <Navbar />
-    <Hero title={title} subtitle={subtitle} selectGen={selectGen} advGen={advGen}/>
+    <div style={styles}>
+      <Hero title={title} subtitle={subtitle} selectGen={selectGen} advGen={advGen}/>
+    </div>
     <Guide />
     <Offers />
     <Videos />

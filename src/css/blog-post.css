@@ -1,3 +1,22 @@
+.blog-hero-content {
+    height: 545px;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-hero-content_text p {
+    font-size: 23px;
+    margin-bottom: 32px;
+}
+
+.blog-hero-content_text h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
 .author-img {
     float: left;
     margin-right: 16px;
