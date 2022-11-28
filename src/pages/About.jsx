@@ -8,11 +8,12 @@ import Testimony from '../components/Testimony'
 import Hero from '../components/Hero'
 
 const About = ({title}) => {
-    title = <h1 className="text-center">About Us</h1>
+
+  title = <h1 className="text-center">About Us</h1>
   return (
     <>
     <Navbar/>
-    <Hero title={title}/>
+    <Hero title={title} />
     <AboutContent/>
     <Testimony/>
     <GenBrand/>

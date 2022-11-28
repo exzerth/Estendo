@@ -1,18 +1,12 @@
 import React from 'react'
+import HeroContainer from './HeroContainer'
 
-const HeroContent = (props) => {
-  const title = props.title
-  const subtitle = props.subtitle
-  const selectGen = props.selectGen
-  const advGen = props.advGen
 
+const HeroContent = ({title, subtitle, selectGen, advGen}) => {
   return (
-    <>
-    {title}
-    {subtitle}
-    {selectGen}
-    {advGen}
-    </>
+    <div className="overlay">
+      <HeroContainer title={title} subtitle={subtitle} selectGen={selectGen} advGen={advGen}/>
+    </div>
   )
 }
 

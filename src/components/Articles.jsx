@@ -10,7 +10,7 @@ const Articles = () => {
       <div className="container">
         <div className="row">
           <ArticlesContent image={<img src={articleImgOne} className="card-img-top" alt="..." />}/>
-          <ArticlesContent image={<img src={articleImgTwo} claclassNamess="card-img-top" alt="..." />}/>
+          <ArticlesContent image={<img src={articleImgTwo} className="card-img-top" alt="..." />}/>
           <ArticlesContent image={<img src={articleImgThree} className="card-img-top" alt="..." />}/>
 
           <ArticlesContent image={<img src={articleImgOne} className="card-img-top" alt="..." />}/>
